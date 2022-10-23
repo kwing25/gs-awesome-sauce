@@ -1,1 +1,1 @@
-# gs-awesome-sauce
+gs
