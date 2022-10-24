@@ -8993,7 +8993,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Black';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: auto;
@@ -9001,7 +9001,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-BlackItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 900;
   font-style: italic;
   font-display: auto;
@@ -9009,7 +9009,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Bold';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: auto;
@@ -9017,7 +9017,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-BoldItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
   font-display: auto;
@@ -9025,7 +9025,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Extrabold';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
   font-display: auto;
@@ -9033,7 +9033,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-ExtraboldItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 800;
   font-style: italic;
   font-display: auto;
@@ -9041,7 +9041,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Extrathin';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
   font-display: auto;
@@ -9049,7 +9049,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-ExtrathinItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 200;
   font-style: italic;
   font-display: auto;
@@ -9057,7 +9057,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Light';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: auto;
@@ -9065,7 +9065,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-LightItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 300;
   font-style: italic;
   font-display: auto;
@@ -9073,7 +9073,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Regular';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
@@ -9081,7 +9081,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-RegularItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: auto;
@@ -9089,7 +9089,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Semibold';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: auto;
@@ -9097,7 +9097,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-SemiboldItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 600;
   font-style: italic;
   font-display: auto;
@@ -9105,7 +9105,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-Thin';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
   font-display: auto;
@@ -9113,7 +9113,7 @@ a {
 
 @font-face {
   font-family: 'AvertaCY-ThinItalic';
-  src: url('../styles/fonts/font.woff2') format('woff2');
+  src: url('../fonts/font.woff2') format('woff2');
   font-weight: 100;
   font-style: italic;
   font-display: auto;
@@ -9121,7 +9121,7 @@ a {
 
 @font-face {
   font-family: 'Pico Black';
-  src: url('../styles/fonts/pico-black.woff2') format('woff2');
+  src: url('../fonts/pico-black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: auto;
