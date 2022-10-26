@@ -1,4 +1,5 @@
-import "./styles/App.css";
+//import "./styles/App.css";
+import "./styles/styles.css";
 
 import SlideContainer from "./components/slide-container";
 

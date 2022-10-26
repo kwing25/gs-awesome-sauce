@@ -12,7 +12,7 @@ import Advantages from "./slides/Advantages";
 
 export default function SlideContainer() {
     return (
-        <div className="pitchwrapper">
+        <div className="pitchwrapper ">
             <Summary />
             <Problem />
             <Solution />
