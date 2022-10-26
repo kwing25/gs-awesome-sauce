@@ -51,21 +51,21 @@ export default function Summary() {
                 </div>
             </div> */}
 
-            <div className="slide_4">
-                <div className="w-layout-grid slide_4_grid">
-                    <div id="w-node-_8c8af83e-acca-3bb0-3711-2ba5ebb907c7-48e868e8" data-w-id="8c8af83e-acca-3bb0-3711-2ba5ebb907c7" className="slide_4_video_container">
-                        <div data-w-id="180a8243-b01b-46f9-aba8-711e41368554" className="demo_sub_container">
+            <div className="slide_2">
+                <div className="w-layout-grid slide_2_grid">
+                    <div id="w-node-_8c8af83e-acca-3bb0-3711-2ba5ebb907c7-48e868e8" className="slide_2_video_container">
+                        <div className="demo_sub_container">
                             <div style={{ paddingTop: '197.87234042553192%' }} className="video w-video w-embed"><iframe className="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F527675712%3Fapp_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F527675712&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1092312482_640.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=vimeo" scrolling="no" title="Vimeo embed" frameBorder={0} allow="autoplay; fullscreen" allowFullScreen="true" /></div>
                         </div>
                     </div>
-                    <div id="w-node-ec604079-db0b-b543-37b0-c05615676c66-48e868e8" className="slide_4_headbar">
-                        <div className="slide_4_column_2_margin">
+                    <div id="w-node-ec604079-db0b-b543-37b0-c05615676c66-48e868e8" className="slide_2_headbar">
+                        <div className="slide_2_column_2_margin">
                             <div className="title_div-copy">
                                 <h1 id="headline" className="slide_title_copy_white-copy">Glowstik<br />Messaging<br /></h1>
                             </div>
                             <div className="slide_line_1-3_copy">
-                                <div className="slide_4_copy_line-1">
-                                    <h5 id="subline" className="slide_4_copy_lines_white-copy">Ask for anything or<br />offer anything<br />to the
+                                <div className="slide_2_copy_line-1">
+                                    <h5 id="subline" className="slide_2_copy_lines_white-copy">Ask for anything or<br />offer anything<br />to the
                                         people around you.<br />See who matches<br />Stay private<br />or share more<br />to meet-up.</h5>
                                 </div>
                             </div>

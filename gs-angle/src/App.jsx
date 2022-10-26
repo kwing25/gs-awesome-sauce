@@ -1,6 +1,6 @@
 //import "./styles/App.css";
-import "./styles/styles.css";
-
+// import "./styles/styles.css";
+import "./styles/App.scss";
 import SlideContainer from "./components/slide-container";
 
 function App() {
