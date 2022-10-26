@@ -1,11 +1,11 @@
 import "./styles/App.css";
 
-import Slide1 from "./components/Slide1";
+import SlideContainer from "./components/slide-container";
 
 function App() {
   return (
     <div className="App">
-      <Slide1 />
+      <SlideContainer />
     </div>
   );
 }
