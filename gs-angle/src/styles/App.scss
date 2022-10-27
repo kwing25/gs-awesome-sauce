@@ -1,7 +1,27 @@
 $color_1: #000;
-$font-family_1: 'DM Sans', sans-serif;
+$color_2: #838383;
+$color_3: #fff;
+$color_4: #444;
+$color_5: #ed2290;
+$color_6: #2d2d63;
+$font-family_1: 'DM Sans',
+sans-serif;
+$font-family_2: AvertaCY-Regular,
+sans-serif;
+$font-family_3: AvertaCY-Semibold,
+sans-serif;
+$font-family_4: AvertaCY-Light,
+sans-serif;
+$font-family_5: AvertaCY-Thin,
+sans-serif;
+$font-family_6: AvertaCY-Bold,
+sans-serif;
+$background-color_1: transparent;
+$background-color_2: #ed2290;
+$background-color_3: #fff;
+$background-color_4: #000;
+$background-color_5: #2d2d63;
 
-/* Web root */
 /* Fonts imported */
 @font-face {
 	font-family: 'AvertaCY-Black';
@@ -10,6 +30,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-BlackItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee80f46d58498d575873e23_font.woff2') format('woff2');
@@ -17,6 +38,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Bold';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee80fd4157f7f3041ce9cda_font.woff2') format('woff2');
@@ -24,6 +46,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-BoldItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee810373bb0824ba8fa3d87_font.woff2') format('woff2');
@@ -31,6 +54,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Extrabold';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8105f3c04b31302db498a_font.woff2') format('woff2');
@@ -38,6 +62,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-ExtraboldItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee810a23bb082afe1fa3e1b_font.woff2') format('woff2');
@@ -45,6 +70,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Extrathin';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee810c12e8f8d4a601e6adc_font.woff2') format('woff2');
@@ -52,6 +78,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-ExtrathinItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811226b7e3b087f9ab9b9_font.woff2') format('woff2');
@@ -59,6 +86,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Light';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8115d38f7412cad4b5347_font.woff2') format('woff2');
@@ -66,6 +94,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-LightItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8118e2b1078753bf20f25_font.woff2') format('woff2');
@@ -73,6 +102,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Regular';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811ae2e8f8db99f1e6c80_font.woff2') format('woff2');
@@ -80,6 +110,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-RegularItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811cdf12e07101d20dba1_font.woff2') format('woff2');
@@ -87,6 +118,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Semibold';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811eea2c6634f20b3b7b1_font.woff2') format('woff2');
@@ -94,6 +126,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-SemiboldItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8120e6bccee19952c5d65_font.woff2') format('woff2');
@@ -101,6 +134,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-Thin';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8122ede1b97774df56376_font.woff2') format('woff2');
@@ -108,6 +142,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'AvertaCY-ThinItalic';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8124ca2c6635aecb3b807_font.woff2') format('woff2');
@@ -115,6 +150,7 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: italic;
 	font-display: auto;
 }
+
 @font-face {
 	font-family: 'Pico Black';
 	src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5eea26a075c6b46da1a6d516_pico-black.woff2') format('woff2');
@@ -122,39 +158,110 @@ $font-family_1: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-display: auto;
 }
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-:root {
-	--main-display: grid;
-	--main-grid-template-columns: 1fr 1fr;
-	--main-grid-template-rows: auto auto;
-	--main-grid-auto-columns: 1fr;
-	--main-grid-auto-rows: auto auto;
-	--main-grid-gap: 16px;
-}
+
 html {
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden;
+	// overflow-x: hidden;
 }
+
 body {
-	display: flex;
 	font-family: $font-family_1;
 	color: $color_1;
 	font-size: 16px;
+	line-height: 20px;
 }
-.grid {
-	position: relative;
-	width: 100vh;
-	height: 100vh;
-	min-width: 1440px;
-	margin-bottom: 40px;
-	-ms-grid-columns: 1fr 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+h1 {
+	font-size: 52px;
+	line-height: 1.2;
+	font-weight: 700;
 }
+
+h2 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+h3 {
+	margin-top: 24px;
+	margin-bottom: 12px;
+	font-size: 32px;
+	line-height: 1.3;
+	font-weight: 700;
+}
+
+h4 {
+	margin-top: 20px;
+	margin-bottom: 12px;
+	font-size: 28px;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+h5 {
+	margin-top: 20px;
+	margin-bottom: 12px;
+	font-size: 24px;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+h6 {
+	margin-top: 16px;
+	margin-bottom: 12px;
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 16px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+a {
+	color: $color_1;
+	text-decoration: underline;
+}
+
 .pitch-wrapper {
 	position: relative;
+	display: none;
+}
+
+// Slide Placholders
+
+.slide-placeholder {
+	display: block;
+	width: 0vw;
+	height: 100vh;
+}
+
+// MEDIA SCREENS- min Large
+@media screen and (min-width: 1280px) {
+	.pitch-wrapper {
+		display: block;
+	}
+
+	.slide-placeholder {
+		display: block;
+	}
+}
+
+// MEDIA SCREENS- max Large
+@media screen and (max-width: 991px) {
+	.pitch-wrapper {
+		display: none;
+	}
 }

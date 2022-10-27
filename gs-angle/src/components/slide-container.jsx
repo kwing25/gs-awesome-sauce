@@ -10,6 +10,8 @@ import PlansFeatures from "./slides/PlansFeatures";
 import Team from "./slides/Team";
 import Advantages from "./slides/Advantages";
 
+import "./slide-container-styles.scss";
+
 export default function SlideContainer() {
     return (
         <div className="pitch-wrapper ">

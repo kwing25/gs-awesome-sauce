@@ -4,14 +4,14 @@ export default function Compeition() {
 
     return (
         <div className="competition">
-            <div className="slide_10">
-                <div className="slide-10-container-footer">
-                    <div className="w-layout-grid slide-10-grid">
-                        <div className="slide-10-column-1-container">
-                            <div className="slide-10header-copy">
-                                <h1 id="headline" className="slide_10_headercopy">Competition</h1>
+            <div className="slide_5">
+                <div className="slide-5-container-footer">
+                    <div className="w-layout-grid slide-5-grid">
+                        <div className="slide-5-column-1-container">
+                            <div className="slide-5header-copy">
+                                <h1 id="headline" className="slide_5_headercopy">Competition</h1>
                                 <a href="https://www.wordstream.com/blog/ws/2016/06/01/google-maps-local-search-ads" className="w-inline-block">
-                                    <h5 id="subline" className="slide_10_copy_lines_white-copy">"Location-related mobile searches are
+                                    <h5 id="subline" className="slide_5_copy_lines_white-copy">"Location-related mobile searches are
                                         growing 50% faster than mobile searches in general. " <br />Google Statistic 2021<br /><br /></h5>
                                 </a>
                                 <div>

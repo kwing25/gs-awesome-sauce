@@ -5,7 +5,7 @@ export default function Revenue() {
     return (
         <div className="revenue">
             <div className="slide_6">
-                <div className="slide-12-container-footer">
+                <div className="slide-6-container-footer">
                     <div className="w-layout-grid slide-6-grid">
                         <div id="w-node-_3a2947f4-d02e-58a4-935c-a79ad459ed2b-48e868e8" className="slide-6-header-copy">
                             <h1 id="headline" className="slide_6_headercopy-copy">Revenue Model</h1>
