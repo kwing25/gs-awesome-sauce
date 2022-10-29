@@ -1,4 +1,6 @@
 import React from "react";
+import MapGraphic from "../MapGraphic";
+import "./problem.scss";
 
 export default function Problem() {
 
@@ -6,7 +8,7 @@ export default function Problem() {
         <div className="problem">
             <div id="problemSlide" className="slide_3">
                 <div className="w-layout-grid slide_3_grid">
-                    <div id="map" className="slide_3_map w-node-_2cc04382-f93f-85bb-0252-f8544c4c0359-48e868e8" />
+                    <MapGraphic />
                     <div id="w-node-f474ce62-2488-38f6-8bfa-92a595f1dbbd-48e868e8" className="slide_3_column_2">
                         <div className="slide_3_column_2_margin">
                             <div className="title_div">
@@ -33,7 +35,7 @@ export default function Problem() {
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
     )
 

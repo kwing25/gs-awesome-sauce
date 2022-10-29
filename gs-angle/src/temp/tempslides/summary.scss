@@ -5,7 +5,7 @@ $color_3: #fff;
 $color_4: #444;
 $color_5: #ed2290;
 $color_6: #2d2d63;
-$font-family_1: 'DM Sans',
+$font-family_1: "DM Sans",
 sans-serif;
 $font-family_2: AvertaCY-Regular,
 sans-serif;
@@ -83,7 +83,6 @@ $background-color_5: #2d2d63;
         -webkit-box-align: end;
         -webkit-align-items: flex-end;
         -ms-flex-align: end;
-
 
         .column-2-margin {
             margin-right: 2px;
@@ -206,7 +205,7 @@ $background-color_5: #2d2d63;
                 margin-bottom: 32px;
                 font-family: AvertaCY-Semibold, sans-serif;
                 color: #fff;
-                line-height: .8;
+                line-height: 0.8;
                 font-weight: 600;
                 text-align: left;
             }
@@ -267,17 +266,6 @@ $background-color_5: #2d2d63;
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 // MEDIA SCREENS- min Large
