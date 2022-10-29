@@ -1,0 +1,79 @@
+$main-display: grid;
+$color_1: #000;
+$color_2: #838383;
+$color_3: #fff;
+$color_4: #444;
+$color_5: #ed2290;
+$color_6: #2d2d63;
+$font-family_1: 'DM Sans',
+sans-serif;
+$font-family_2: AvertaCY-Regular,
+sans-serif;
+$font-family_3: AvertaCY-Semibold,
+sans-serif;
+$font-family_4: AvertaCY-Light,
+sans-serif;
+$font-family_5: AvertaCY-Thin,
+sans-serif;
+$font-family_6: AvertaCY-Bold,
+sans-serif;
+$background-color_1: transparent;
+$background-color_2: #ed2290;
+$background-color_3: #fff;
+$background-color_4: #000;
+$background-color_5: #2d2d63;
+
+
+.slide_3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    &__grid {
+        position: relative;
+        justify-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        grid-column-gap: 0px;
+        -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+
+}
+
+
+@media screen and (min-width: 990px) {
+    .slide_3 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+
+        &__map {
+            display: block;
+        }
+    }
+}
+
