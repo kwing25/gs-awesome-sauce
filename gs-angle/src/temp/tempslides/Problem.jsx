@@ -7,8 +7,8 @@ export default function TempProblem() {
         <div className="problem">
             <div className="slide_3">
                 <div className="slide_3__grid w-layout-grid">
-                    <div className="slide_3__column-2">
-                        <div className="slide_3__margin">
+                    <div className="column_2">
+                        <div className="margin">
                             <div className="title_div">
                                 <h1 id="headline" className="slide-title">The Problem</h1>
                             </div>
