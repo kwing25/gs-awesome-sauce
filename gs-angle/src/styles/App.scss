@@ -249,12 +249,19 @@ img {
 }
 
 // Slide Placholders
-
 .slide-placeholder {
 	display: block;
 	width: 0vw;
 	height: 100vh;
 }
+
+// 
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+
 
 // MEDIA SCREENS- min Large
 @media screen and (min-width: 1280px) {

@@ -43,8 +43,6 @@ export default function TempSummary() {
                 </div>
             </div>
 
-
-
         </div>
 
     )

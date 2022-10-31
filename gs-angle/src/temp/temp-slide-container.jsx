@@ -3,9 +3,10 @@ import React from "react";
 import TempSummary from "./tempslides/Summary";
 import TempProblem from "./tempslides/Problem";
 import TempSolution from "./tempslides/Solution";
+import TempCompeition from "./tempslides/Compeition";
 
 import "./temp-slide-container.scss";
-import "./main.scss";
+// import "./main.scss";
 
 export default function TempSlideContainer() {
     return (
@@ -13,7 +14,7 @@ export default function TempSlideContainer() {
             <TempSummary />
             <TempProblem />
             <TempSolution />
-            {/* <Compeition /> */}
+            <TempCompeition />
             {/* <Revenue /> */}
             {/* <Privacy /> */}
             {/* <PlansFeatures /> */}
