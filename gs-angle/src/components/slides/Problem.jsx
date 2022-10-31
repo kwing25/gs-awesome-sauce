@@ -1,34 +1,34 @@
 import React from "react";
-import MapGraphic from "../MapGraphic";
+// import MapGraphic from "../MapGraphic";
 import "./problem.scss";
 
 export default function Problem() {
 
     return (
         <div className="problem">
-            <div id="problemSlide" className="slide_3">
-                <div className="w-layout-grid slide_3_grid">
-                    <MapGraphic />
-                    <div id="w-node-f474ce62-2488-38f6-8bfa-92a595f1dbbd-48e868e8" className="slide_3_column_2">
-                        <div className="slide_3_column_2_margin">
+            <div className="slide_3">
+                <div className="slide_3__grid w-layout-grid">
+                    {/* <MapGraphic /> */}
+                    <div className="column_2">
+                        <div className="margin">
                             <div className="title_div">
-                                <h1 id="headline" className="slide_title_copy_white-problem">The Problem</h1>
+                                <h1 id="headline" className="slide-title">The Problem</h1>
                             </div>
-                            <div className="copy-line-3-copy">
-                                <h5 id="subline" className="slide_copy_lines_white-copy-copy">People want everything right now</h5>
+                            <div className="title_div_sub">
+                                <h5 id="subline" className="slide-sub-title">People want everything right now</h5>
                             </div>
-                            <div className="slide_line_1-3_copy">
-                                <div className="copy-line-2"><img src="images/searchPixelPerfect96.svg" loading="lazy" width={98} alt="" className="copy-line-image-icon" />
-                                    <h5 id="subline" className="slide_copy_lines_white-copy">Today's technology allows you to search for
+                            <div className="lines">
+                                <div className="line_1"><img src="https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/624705f74c826394b6b2f65e_searchPixelPerfect96.svg" loading="lazy" width={98} alt="" className="copy-line-image-icon" />
+                                    <h5 id="subline" className="line-sub-title">Today's technology allows you to search for
                                         opportunities in their area.</h5>
                                 </div>
-                                <div className="copy-line-1"><img src="images/addPixelPerfect96.svg" loading="lazy" alt="" className="image-15" />
-                                    <h5 id="subline" className="slide_copy_lines_white-copy">But it doesn't allow you to find areas of
+                                <div className="line_2"><img src="https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/6247064d1c22c2447510a170_addPixelPerfect96.svg" loading="lazy" alt="" className="image-plus" />
+                                    <h5 id="subline" className="line-sub-title">But it doesn't allow you to find areas of
                                         opportunity.</h5>
                                 </div>
-                                <div className="copy-line-3">
+                                <div className="line_3">
                                     <div className="lottie-animation-1" data-animation-type="lottie" data-src="documents/Happy-Face-Lottie-Thick-Pink-v1.json" data-loop={0} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration="1.2666666666666666" data-duration={0} />
-                                    <h5 id="subline" className="slide_copy_lines_white-copy">Large amount of local opportunities expire when you
+                                    <h5 id="subline" className="line-sub-title">Large amount of local opportunities expire when you
                                         can not quickly connect.</h5>
                                 </div>
                             </div>
