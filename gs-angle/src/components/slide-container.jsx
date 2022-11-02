@@ -4,7 +4,7 @@ import Summary from "./slides/Summary";
 import Problem from "./slides/Problem";
 import Solution from "./slides/Solution";
 import Compeition from "./slides/Compeition";
-// import Revenue from "./slides/Revenue";
+import Revenue from "./slides/Revenue";
 // import Privacy from "./slides/Privacy";
 // import PlansFeatures from "./slides/PlansFeatures";
 // import Team from "./slides/Team";
@@ -19,7 +19,7 @@ export default function SlideContainer() {
             <Problem />
             <Solution />
             <Compeition />
-            {/* <Revenue /> */}
+            <Revenue />
             {/* <Privacy /> */}
             {/* <PlansFeatures /> */}
             {/* <Team /> */}
