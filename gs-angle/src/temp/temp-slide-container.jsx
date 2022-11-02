@@ -5,6 +5,7 @@ import TempProblem from "./tempslides/Problem";
 import TempSolution from "./tempslides/Solution";
 import TempCompeition from "./tempslides/Compeition";
 import TempRevenue from "./tempslides/Revenue";
+import TempPrivacy from "./tempslides/Privacy";
 
 import "./temp-slide-container.scss";
 // import "./main.scss";
@@ -17,7 +18,7 @@ export default function TempSlideContainer() {
             <TempSolution />
             <TempCompeition />
             <TempRevenue />
-            {/* <Privacy /> */}
+            <TempPrivacy />
             {/* <PlansFeatures /> */}
             {/* <Team /> */}
             {/* <Advantages /> */}

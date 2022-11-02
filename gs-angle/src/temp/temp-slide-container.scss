@@ -24,24 +24,24 @@ $background-color_3: #fff;
 $background-color_4: #000;
 $background-color_5: #2d2d63;
 
-.w-layout-grid {
-    display: -ms-grid;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-row-gap: 16px;
-    grid-column-gap: 16px;
-    -ms-grid-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-}
+// .w-layout-grid {
+//     display: -ms-grid;
+//     display: grid;
+//     grid-auto-columns: 1fr;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: auto auto;
+//     grid-row-gap: 16px;
+//     grid-column-gap: 16px;
+//     -ms-grid-columns: 1fr 1fr;
+//     -ms-grid-rows: auto auto;
+// }
 
-.video {
-    top: 1px;
-}
+// .video {
+//     top: 1px;
+// }
 
-.w-video {
-    width: 100%;
-    position: relative;
-    padding: 0;
-}
+// .w-video {
+//     width: 100%;
+//     position: relative;
+//     padding: 0;
+// }
