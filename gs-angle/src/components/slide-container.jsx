@@ -9,7 +9,6 @@ export default function SlideContainer() {
     return (
         <div className="pitch-wrapper ">
             <Summary />
-
         </div>
     );
 }

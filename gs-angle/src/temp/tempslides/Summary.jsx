@@ -6,16 +6,16 @@ import { useLottie } from "lottie-react";
 export default function TempSummary() {
     const style = {
         height: 300,
-      };
+    };
 
     const options = {
         // animationData: groovyWalkAnimation,
         loop: true,
         autoplay: true,
-      };
+    };
 
-      const { View } = useLottie(options, style);
-      
+    //   const { View } = useLottie(options, style);
+
     return (
         <div className="summary">
 
