@@ -1,5 +1,6 @@
 import React from "react";
 import "./summary.scss";
+import { useLottie } from "lottie-react";
 
 export default function TempSummary() {
 
