@@ -2,7 +2,7 @@
 import {makeStyles} from 'tss-react/mui' // https://www.tss-react.dev/
 
 
-const SummaryAlt = ({}) => {
+const SummaryAlt = () => {
 
     const {classes} = useStyles(
 		{}
@@ -20,7 +20,7 @@ const useStyles = makeStyles()((_, props) => ({
 
 	wrapper: {
 		height: '100%',
-
+        width: '100%'
 	}
 }))
 
