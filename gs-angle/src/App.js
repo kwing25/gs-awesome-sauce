@@ -1,10 +1,12 @@
-import "./styles/App.css";
-import SlideContainer from "./components/slide-container";
+import "./styles/styles.css";
+//import SlideContainer from "./components/slide-container";
+import TempSlideContainer from "./temp/temp-slide-container";
 
 function App() {
   return (
     <div className="App">
-      <SlideContainer />
+      {/* <SlideContainer /> */}
+      <TempSlideContainer />
     </div>
   );
 }
