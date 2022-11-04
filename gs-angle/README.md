@@ -1,1 +1,1 @@
-[![demo ☞ 🔗](https://img.shields.io/badge/demo%20%E2%98%9E%20%F0%9F%94%97-gray?style=flat-square&link=https://prairie-dog-vibes-co-1929.vercel.app/)](https://prairie-dog-vibes-co-1929.vercel.app/)
+```gs-awesome-sauce/gs-angle```

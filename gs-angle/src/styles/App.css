@@ -1,5 +1,3 @@
-
-
 /* Web root */
 * {
   -webkit-box-sizing: border-box;
@@ -9014,6 +9012,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-BlackItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee80f46d58498d575873e23_font.woff2') format('woff2');
@@ -9021,6 +9020,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Bold';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee80fd4157f7f3041ce9cda_font.woff2') format('woff2');
@@ -9028,6 +9028,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-BoldItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee810373bb0824ba8fa3d87_font.woff2') format('woff2');
@@ -9035,6 +9036,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Extrabold';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8105f3c04b31302db498a_font.woff2') format('woff2');
@@ -9042,6 +9044,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-ExtraboldItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee810a23bb082afe1fa3e1b_font.woff2') format('woff2');
@@ -9049,6 +9052,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Extrathin';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee810c12e8f8d4a601e6adc_font.woff2') format('woff2');
@@ -9056,6 +9060,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-ExtrathinItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811226b7e3b087f9ab9b9_font.woff2') format('woff2');
@@ -9063,6 +9068,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Light';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8115d38f7412cad4b5347_font.woff2') format('woff2');
@@ -9070,6 +9076,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-LightItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8118e2b1078753bf20f25_font.woff2') format('woff2');
@@ -9077,6 +9084,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Regular';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811ae2e8f8db99f1e6c80_font.woff2') format('woff2');
@@ -9084,6 +9092,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-RegularItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811cdf12e07101d20dba1_font.woff2') format('woff2');
@@ -9091,6 +9100,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Semibold';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee811eea2c6634f20b3b7b1_font.woff2') format('woff2');
@@ -9098,6 +9108,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-SemiboldItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8120e6bccee19952c5d65_font.woff2') format('woff2');
@@ -9105,6 +9116,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-Thin';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8122ede1b97774df56376_font.woff2') format('woff2');
@@ -9112,6 +9124,7 @@ a {
   font-style: normal;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'AvertaCY-ThinItalic';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5ee8124ca2c6635aecb3b807_font.woff2') format('woff2');
@@ -9119,6 +9132,7 @@ a {
   font-style: italic;
   font-display: auto;
 }
+
 @font-face {
   font-family: 'Pico Black';
   src: url('https://uploads-ssl.webflow.com/5ee398d5d4577f50ba98b03d/5eea26a075c6b46da1a6d516_pico-black.woff2') format('woff2');

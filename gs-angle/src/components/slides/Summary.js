@@ -1,5 +1,5 @@
 import React from "react";
-import "./summary.scss";
+
 
 export default function Summary() {
 
