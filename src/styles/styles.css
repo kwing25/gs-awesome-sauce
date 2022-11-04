@@ -3,17 +3,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
 }
-
 
 body {
     font-family: 'DM Sans', sans-serif;
     color: #000;
     font-size: 16px;
 }
-
-
 
 /* Fonts imported */
 @font-face {
