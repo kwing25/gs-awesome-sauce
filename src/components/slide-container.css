@@ -3,27 +3,6 @@
     position: relative;
 }
 
-/* .slide_1 {
-    height: 100vh;
-    width: 100vw;
-} */
-
-/* .lottie-animation-4 {
-    width: 100vw;
-    height: 100vh;
-} */
-
-/* .column1, .column2 {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 3;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: 2;
-} */
-
 .heading {
     font-family: AvertaCY-Semibold,sans-serif;
     color: #000;
