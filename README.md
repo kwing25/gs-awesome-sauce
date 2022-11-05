@@ -1,1 +1,1 @@
-```gs-awesome-sauce/gs-angle```
+```gs-awesome-sauce```
