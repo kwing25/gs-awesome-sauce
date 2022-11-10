@@ -1,19 +1,28 @@
+import './GlobalResources/Assets/Fonts/fonts.css'
 import React from "react";
-import ReactDOM from "react-dom/client";
-// import "./styles/index.css";
+import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import {GlobalStyles} from 'tss-react'
+import { CacheProvider } from "@emotion/react";
+import createCache from "@emotion/cache";
+import globalStyles from './GlobalResources/Theme/globalStyles'
 
-import "./styles/fonts/font.woff2";
-import "./styles/fonts/pico-black.woff2";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+export const muiCache = createCache({
+  key: "mui",
+  prepend: true,
+});
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <CacheProvider value={muiCache}>
+    <GlobalStyles styles={globalStyles}/>
+      <App />
+    </CacheProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

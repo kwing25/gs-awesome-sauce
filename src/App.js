@@ -1,10 +1,10 @@
-import "./styles/styles.css";
-import SlideContainer from "./components/slide-container";
+import "./App.css";
+import Summary from "./Components/Summary";
 
 function App() {
   return (
     <div className="App">
-      <SlideContainer />
+      <Summary />
     </div>
   );
 }
