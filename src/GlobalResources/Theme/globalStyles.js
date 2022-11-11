@@ -3,18 +3,25 @@ import theme from "./theme";
 
 const globalStyles = {
   body: {
-    fontFamily: "OpenSans",
+    fontFamily: "AvertaCY-Regular",
     overscrollBehaviorY: "none",
     margin: 0,
   },
   a: { color: theme.palette.brandPink },
-  input: { fontFamily: "OpenSans" },
+  input: { fontFamily: "AvertaCY-Regular" },
   ".activeInputOutline": {
     outline: "none",
     borderStyle: "solid",
     borderWidth: 2,
     borderColor: theme.palette.formBlue,
     borderRadius: 8,
+  },
+  h1: {
+    fontFamily: "AvertaCY-SemiBold",
+    fontSize: 100,
+    lineHeight: "1",
+    letterSpacing: "-8px",
+    color: theme.palette.neutralBlack,
   },
   ".footer": {
     display: "flex",
@@ -31,16 +38,14 @@ const globalStyles = {
   ".grid": {
     display: "grid",
     gridAutoColumns: "1fr",
-    gridTemplateRows: "auto auto auto auto auto",
-    marginRight: 24,
-    marginLeft: 24,
-    gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
-    gridRowGap: 24,
-    gridColumnGap: 24,
+    gridTemplateRows: "auto auto",
+    gridTemplateColumns: "1fr 1fr",
+    gridRowGap: 16,
+    gridColumnGap: 16,
     [theme.breakpoints.down("tablet")]: {
       gridColumnGap: 16,
       gridRowGap: 16,
-      gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
+      gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
     },
     [theme.breakpoints.down("mobile")]: {
       gridTemplateColumns: "1fr 1fr 1fr 1fr",
@@ -62,6 +67,7 @@ const globalStyles = {
     fontSize: 12,
     textAlign: "center",
     marginBottom: 16,
+    color: theme.palette.brandPink,
   },
 };
 

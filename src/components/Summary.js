@@ -15,10 +15,10 @@ function Summary() {
           />
         </div>
       </header>
-      <div className={classes.content}>
+      <div className="grid">
         <div className={classes.column1}>
           <h1 className="heading">Send a signal</h1>
-          <h5 className="subhead">for anything you want</h5>
+          <h5 className="subContentText">for anything you want</h5>
         </div>
         <div className={classes.column2}></div>
       </div>
@@ -31,13 +31,13 @@ const useStyles = makeStyles()((_, props) => ({
     display: "grid",
     position: "sticky",
   },
-  header: {
-    position: "absolute",
-    width: "100%",
-    marginLeft: "auto",
-    marginRight: "auto",
-    padding: "20px 40px 0",
-  },
+  // header: {
+  //   position: "absolute",
+  //   width: "100%",
+  //   marginLeft: "auto",
+  //   marginRight: "auto",
+  //   padding: "20px 40px 0",
+  // },
   content: {
     display: "grid",
     position: "relative",

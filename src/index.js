@@ -1,4 +1,3 @@
-import './GlobalResources/Assets/Fonts/fonts.css'
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -6,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import {GlobalStyles} from 'tss-react'
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
+import './GlobalResources/Assets/Fonts/fonts.css'
 import globalStyles from './GlobalResources/Theme/globalStyles'
 
 
