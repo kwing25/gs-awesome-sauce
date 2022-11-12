@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'AvertaCY-Black';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: auto;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'AvertaCY-BlackItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 900;
     font-style: italic;
     font-display: auto;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Bold';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: auto;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'AvertaCY-BoldItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 700;
     font-style: italic;
     font-display: auto;
@@ -32,7 +32,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Extrabold';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
     font-display: auto;
@@ -40,7 +40,7 @@
 
 @font-face {
     font-family: 'AvertaCY-ExtraboldItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 800;
     font-style: italic;
     font-display: auto;
@@ -48,7 +48,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Extrathin';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
     font-display: auto;
@@ -56,7 +56,7 @@
 
 @font-face {
     font-family: 'AvertaCY-ExtrathinItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 200;
     font-style: italic;
     font-display: auto;
@@ -64,7 +64,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Light';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: auto;
@@ -72,7 +72,7 @@
 
 @font-face {
     font-family: 'AvertaCY-LightItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
     font-display: auto;
@@ -80,7 +80,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Regular';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: auto;
@@ -88,7 +88,7 @@
 
 @font-face {
     font-family: 'AvertaCY-RegularItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 400;
     font-style: italic;
     font-display: auto;
@@ -96,7 +96,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Semibold';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: auto;
@@ -104,7 +104,7 @@
 
 @font-face {
     font-family: 'AvertaCY-SemiboldItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 600;
     font-style: italic;
     font-display: auto;
@@ -112,7 +112,7 @@
 
 @font-face {
     font-family: 'AvertaCY-Thin';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
     font-display: auto;
@@ -120,7 +120,7 @@
 
 @font-face {
     font-family: 'AvertaCY-ThinItalic';
-    src: url('./font.woff2') format('woff2');
+    src: url('./Averta.woff2') format('woff2');
     font-weight: 100;
     font-style: italic;
     font-display: auto;
@@ -128,7 +128,7 @@
 
 @font-face {
     font-family: 'Pico Black';
-    src: url('./pico-black.woff2') format('woff2');
+    src: url('./PicoBlack.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: auto;

@@ -8,32 +8,12 @@ const globalStyles = {
     margin: 0,
   },
   a: { color: theme.palette.brandPink },
-  input: { fontFamily: "AvertaCY-Regular" },
-  ".activeInputOutline": {
-    outline: "none",
-    borderStyle: "solid",
-    borderWidth: 2,
-    borderColor: theme.palette.formBlue,
-    borderRadius: 8,
-  },
   h1: {
-    fontFamily: "AvertaCY-SemiBold",
+    fontFamily: "AvertaCY-Semibold",
     fontSize: 100,
     lineHeight: "1",
     letterSpacing: "-8px",
     color: theme.palette.neutralBlack,
-  },
-  ".footer": {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-  },
-  ".gridWrapperFooters": {
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    overflow: "hidden",
   },
   ".grid": {
     display: "grid",
