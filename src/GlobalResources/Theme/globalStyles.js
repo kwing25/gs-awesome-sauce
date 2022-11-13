@@ -3,32 +3,38 @@ import theme from "./theme";
 
 const globalStyles = {
   body: {
-    fontFamily: "AvertaCY-Regular",
+    fontFamily: "Averta",
     overscrollBehaviorY: "none",
     margin: 0,
   },
   a: { color: theme.palette.brandPink },
   h1: {
-    fontFamily: "AvertaCY-Semibold",
-    fontSize: 100,
+  fontFamily: "AvertaSemiBold",
+    fontSize: 130,
     lineHeight: "1",
-    letterSpacing: "-8px",
+    letterSpacing: "-10px",
     color: theme.palette.neutralBlack,
+  },
+  h5: {
+    fontSize: 40,
+    lineHeight: "1",
+    letterSpacing: "-1.5px",
+    color: theme.palette.neutralTypeMain,
   },
   ".grid": {
     display: "grid",
     gridAutoColumns: "1fr",
-    gridTemplateRows: "auto auto",
+    gridTemplateRows: "auto",
     gridTemplateColumns: "1fr 1fr",
     gridRowGap: 16,
     gridColumnGap: 16,
     [theme.breakpoints.down("tablet")]: {
       gridColumnGap: 16,
       gridRowGap: 16,
-      gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr",
+      gridTemplateColumns: "1fr 1fr 1fr 1fr ",
     },
     [theme.breakpoints.down("mobile")]: {
-      gridTemplateColumns: "1fr 1fr 1fr 1fr",
+      gridTemplateColumns: "1fr 1fr",
     },
   },
   ".headingText": {
