@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"  preserveAspectRatio="xMidYMid meet" style="transform: translate3d(0px, 0px, 0px);" xml:space="preserve">
+  <defs>
+    <clipPath>
+      <rect width="500" height="500" x="0" y="0"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g transform="matrix(1.3799999952316284,0,0,1.3799999952316284,250,250)" opacity="1" style="display: block;">
+      <g opacity="1" transform="matrix(1,0,0,1,0,-0.6650000214576721)">
+        <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(237,34,144)" stroke-opacity="1" stroke-width="26" d=" M-57,80 C-57,80 -36,52.124080657958984 3,52.124080657958984 C42,52.124080657958984 66,80 66,80"/>
+      </g>
+      <g opacity="1" transform="matrix(1,0,0,0.9979259967803955,1.8990000486373901,7.190999984741211)">
+        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(237,34,144)" stroke-opacity="1" stroke-width="26" d=" M0,-154.91799926757812 C85.4992446899414,-154.91799926757812 154.91799926757812,-85.4992446899414 154.91799926757812,0 C154.91799926757812,85.4992446899414 85.4992446899414,154.91799926757812 0,154.91799926757812 C-85.4992446899414,154.91799926757812 -154.91799926757812,85.4992446899414 -154.91799926757812,0 C-154.91799926757812,-85.4992446899414 -85.4992446899414,-154.91799926757812 0,-154.91799926757812z"/>
+      </g>
+      <g opacity="1" transform="matrix(0.7963297963142395,-0.07654327154159546,0.07654327154159546,0.7963297963142395,-11.807231903076172,-4.211648941040039)">
+        <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(237,34,144)" stroke-opacity="1" stroke-width="26" d=" M-84,-19 C-84,-19 -73.27830505371094,-3.8511321544647217 -53.27830505371094,-3.8511321544647217 C-33.27830505371094,-3.8511321544647217 -24,-16 -24,-16"/>
+      </g>
+      <g opacity="1" transform="matrix(0.7972230315208435,-0.06659924238920212,0.06659924238920212,0.7972230315208435,98.15194702148438,-3.748067617416382)">
+        <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(237,34,144)" stroke-opacity="1" stroke-width="26" d=" M-84,-19 C-84,-19 -73.27830505371094,-3.8511321544647217 -53.27830505371094,-3.8511321544647217 C-33.27830505371094,-3.8511321544647217 -24,-16 -24,-16"/>
+      </g>
+    </g>
+  </g>
+</svg>
