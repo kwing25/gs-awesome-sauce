@@ -1,15 +1,13 @@
 import "./App.css";
 
-import Wrapper from "./Components/wrapper";
-// import Summary from "./Components/Slides/Summary";
+import PitchWrapper from "./components/wrapper";
 
 
 function App() {
   return (
-    <div className="App">
-<Wrapper />
-{/* <Summary /> */}
-    </div>
+    <>
+<PitchWrapper />
+    </>
   );
 }
 

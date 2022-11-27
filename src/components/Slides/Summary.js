@@ -12,6 +12,7 @@ function Summary() {
         <header className={classes.header}>
           <div className={classes.logoContainer}>
             <img
+
               src={glowstikLogo}
               alt="logo"
               style={{ height: "100%", width: "112px" }}
