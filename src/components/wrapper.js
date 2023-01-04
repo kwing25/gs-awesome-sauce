@@ -1,7 +1,6 @@
 import { makeStyles } from "tss-react/mui";
 import Landing from "./Slides/Landing";
-// import Summary from "./Slides/Summary";
-
+import Problem from "./Slides/Problem";
 
 function PitchWrapper() {
   const { classes } = useStyles({});
@@ -10,19 +9,20 @@ function PitchWrapper() {
     <div className={classes.pitchWrapper}>
       {/* summary, problem, solution, competition, revenue, privacy, plansfeatures, team, advantages */}
 <Landing />
-      {/* <Summary /> */}
+<Problem />
 
     </div>
   );
 }
 
 const useStyles = makeStyles()((_, props) => ({
-  // pitchWrapper: {
-  //   display: "flex",
-  //   zIndex: 1,
-  //   width: "100vw",
-  //   height: "100vh",
-  // }
+  pitchWrapper: {
+
+position: "relative",
+    width: "100%",
+    height: "100%",
+    overflow: 'auto',
+  }
 
 }));
 

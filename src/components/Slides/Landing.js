@@ -1,7 +1,6 @@
 import { makeStyles } from "tss-react/mui";
-import Lottie from "lottie-react";
-import glowstikLogo from "../../GlobalResources/Assets/Images/glowstikLogo.svg";
-import glowstikMapIconPulseAnimation from "../../GlobalResources/Assets/Lotties/glowstikMapIconPulse.json";
+// import Lottie from "lottie-react";
+// import glowstikMapIconPulseAnimation from "../../GlobalResources/Assets/Lotties/glowstikMapIconPulse.json";
 
 function Landing() {
   const { classes } = useStyles({});
@@ -9,23 +8,20 @@ function Landing() {
   return (
     <>
       <div className={classes.landing}>
+
         <div className={classes.wrapper}>
           <div className={classes.wrapperInner}>
-            <img
-              className={classes.gsLogo}
-              src={glowstikLogo}
-              alt="logo"
-              style={{ height: "100%", width: "400px" }}
-            />
-            <p className={classes.tagline}>cast messaging</p>
+            <h1 className={classes.passionStatement}>Where</h1>
+            <h1 className={classes.passionStatementSub}> is my tribe?</h1>
           </div>
         </div>
-        <div className={classes.lottieWrapper}>
-          <div className={classes.lottieWrapperInner}>
-            <Lottie
-              className={classes.mapIconLottie}
-              animationData={glowstikMapIconPulseAnimation} />
+
+        <div className={classes.pitchVideoWrapper}>
+          <div className={classes.pitchVideo}>
+            <iframe src="https://player.vimeo.com/video/527675712?app_id=122963&h=c98a1e73c4&referrer=https%3A%2F%2Fwww.glowstik.com%2F" title="glowstik pitch" />
+
           </div>
+
         </div>
       </div>
     </>
@@ -34,14 +30,51 @@ function Landing() {
 
 const useStyles = makeStyles()((_, props) => ({
   landing: {
-    display: "flex",
-    width: "100vw",
-    height: "100%",
-    flexDirection: "row",
+    display: 'flex',
+    overflow: 'hidden',
+    zIndex: 1,
+    height: "100vh",
+    position: "sticky",
+    top: "0px",
     justifyContent: "center",
     alignItems: "center",
+  },
+  wrapper: {
+    position: "relative",
+    padding: "45px 0 26px 26px",
+    right: "-10vw",
+  },
+
+  wrapperInner: {
     position: "relative",
   },
+
+  passionStatement: {
+    fontSize: "15vw",
+    lineHeight: "14vw",
+    letterSpacing: "-0.09em",
+    marginTop: "-1vw",
+  },
+
+  passionStatementSub: {
+    fontSize: "15vw",
+    lineHeight: "14vw",
+    letterSpacing: "-0.09em",
+    marginTop: "-13vw",
+  },
+
+  pitchVideoWrapper: {
+    display: "flex",
+    width: "50%",
+    height: "100%",
+  },
+
+  pitchVideo: {
+    border: "none",
+    width: "100%",
+    height: "100vh",
+  },
+
 
 }));
 

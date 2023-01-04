@@ -13,7 +13,7 @@ const globalStyles = {
     fontSize: 130,
     lineHeight: "1",
     letterSpacing: "-10px",
-    color: theme.palette.neutralBlack,
+    color: theme.palette.brandPink,
     [theme.breakpoints.down("tablet")]: { fontSize: 100 },
     [theme.breakpoints.down("mobile")]: { fontSize: 75 },
   },
@@ -37,6 +37,11 @@ const globalStyles = {
     border: "none",
     height: "auto",
 
+  },
+  iframe: {
+    width: "100%",
+    height: "100%",
+    border: "none",
   },
   ".flex": {
     display: "flex",
