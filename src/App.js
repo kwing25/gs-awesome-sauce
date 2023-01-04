@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Wrapper from "./Components/wrapper";
+import Wrapper from "./components/wrapper";
 // import Summary from "./Components/Slides/Summary";
 
 
