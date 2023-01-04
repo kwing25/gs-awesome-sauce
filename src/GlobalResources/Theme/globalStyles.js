@@ -9,7 +9,7 @@ const globalStyles = {
   },
   a: { color: theme.palette.brandPink },
   h1: {
-  fontFamily: "AvertaSemiBold",
+    fontFamily: "AvertaSemiBold",
     fontSize: 130,
     lineHeight: "1",
     letterSpacing: "-10px",
@@ -25,21 +25,25 @@ const globalStyles = {
     [theme.breakpoints.down("tablet")]: { fontSize: 32 },
     [theme.breakpoints.down("mobile")]: { fontSize: 27 },
   },
+  p: {
+    fontSize: 20,
+    color: theme.palette.neutralTypeMain,
+    [theme.breakpoints.down("tablet")]: { fontSize: 18 },
+    [theme.breakpoints.down("mobile")]: { fontSize: 16 },
+  },
+  img: {
+    display: "inline-block",
+    maxWidth: "100%",
+    border: "none",
+    height: "auto",
+
+  },
+  ".flex": {
+    display: "flex",
+  },
+
   ".grid": {
     display: "grid",
-    gridAutoColumns: "1fr",
-    gridTemplateRows: "auto",
-    gridTemplateColumns: "1fr 1fr",
-    gridRowGap: 16,
-    gridColumnGap: 16,
-    [theme.breakpoints.down("tablet")]: {
-      gridColumnGap: 16,
-      gridRowGap: 16,
-      gridTemplateColumns: "1fr 1fr 1fr 1fr ",
-    },
-    [theme.breakpoints.down("mobile")]: {
-      gridTemplateColumns: "1fr 1fr",
-    },
   },
 };
 
